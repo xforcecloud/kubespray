@@ -22,6 +22,7 @@ docker_registry_mirrors:
 helm_enabled: true
 # Nginx ingress controller deployment
 ingress_nginx_enabled: true
+ingress_nginx_namespace: "kube-system"
 
 ## 4.inventory\release\group_vars\k8s-cluster\k8s-cluster.yml
 # Choose network plugin (cilium, calico, contiv, weave or flannel)
